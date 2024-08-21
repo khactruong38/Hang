@@ -705,7 +705,7 @@ body{
         left: -12%;
     }
     .listSlider {
-        height: 168px;
+        height: 210px;
     }
     .giftbox {
         display: none;
@@ -713,10 +713,10 @@ body{
     .textLetter {
         width: 100%;
     }
-    .textLetter .contentLetter {
-        margin-top: 4px;
-    }
     .formLetter .wrapperLetter {
         height: 102%;
+    }
+    .boxLetter .formLetter {
+        height: 370px;
     }
 }
