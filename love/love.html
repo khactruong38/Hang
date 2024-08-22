@@ -44,7 +44,13 @@
             <div class="buttonLove">
                 <div class="cricleBtn"></div>
                 <div class="button"></div>
+                <audio id="audioPlayer" src="../image/nhac.mp3" preload="auto"></audio>
             </div>
+            <script>document.querySelector('.buttonLove').addEventListener('click', function() {
+                var audioPlayer = document.getElementById('audioPlayer');
+                audioPlayer.play();
+            });
+            </script>
         </div>
         <div class="boxLine">
             <div class="boxCar">
