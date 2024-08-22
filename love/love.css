@@ -714,9 +714,9 @@ body{
         width: 100%;
     }
     .formLetter .wrapperLetter {
-        height: 136%;
+        height: 100%;
     }
     .boxLetter .formLetter {
-        height: 490px;
+        height: 540px;
     }
 }
